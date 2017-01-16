@@ -41,6 +41,11 @@ nav {
   margin-top: 55px;
   overflow: hidden; }
 
+.container-footer {
+  margin: 0 8px;
+  overflow: hidden;
+}
+
 .cyberia {
   display: flex;
   padding-left: 15px;
@@ -78,6 +83,14 @@ h2 {
 .light-blue {
   background-color: #e3e3e3; }
 
+.text-dark-blue {
+  color: #9ad3de;
+}
+
+.text-light-blue {
+  color: #e3e3e3;
+}
+
 .portfolio-container {
   display: flex;
   justify-content: center;
@@ -101,7 +114,9 @@ h2 {
   width: 6em;
   background-color: #FF9000;
   border-radius: 0.7em;
-  margin: 1em 0; }
+  margin: 1em 0;
+  //box-shadow: 0.015em 0.015em 0.015em black;
+  }
 
 .aligntextleft {
   text-align: left; }

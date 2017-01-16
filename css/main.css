@@ -41,6 +41,10 @@ nav {
   margin-top: 55px;
   overflow: hidden; }
 
+.container-footer {
+  margin: 0 8px;
+  overflow: hidden; }
+
 .cyberia {
   display: flex;
   padding-left: 15px;
@@ -77,6 +81,12 @@ h2 {
 
 .light-blue {
   background-color: #e3e3e3; }
+
+.text-dark-blue {
+  color: #9ad3de; }
+
+.text-light-blue {
+  color: #e3e3e3; }
 
 .portfolio-container {
   display: flex;
@@ -156,38 +166,36 @@ button {
   background: #9ad3de;
   float: right;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
+
 .closeIcon {
   font-size: 30px;
   color: #666;
-  line-height: 36px;
-}
+  line-height: 36px; }
+
 .sideNav {
-	top: 52;
+  top: 52;
   position: fixed;
   height: 100vh;
   background: #9ad3de;
   transform: translateX(0%);
-  animation: slidein 0.5s forwards;
-}
+  animation: slidein 0.5s forwards; }
+
 @keyframes slidein {
   from {
     margin-left: 100%;
     width: 10%; }
   to {
     margin-right: 0%;
-    width: 100%; }
-}
+    width: 100%; } }
 .sideNav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  //margin-right: 50%;
   list-style: none;
-  background: #9ad3de; 
-  padding-top: 50px;
-}
+  background: #9ad3de;
+  padding-top: 50px; }
+
 .sideNav a {
   display: block;
   margin-top: 1.5em;
@@ -205,5 +213,7 @@ input#emejl {
   background-image: url("/icons/businessman-256.png");
   background-size: 40px 40px;
   background-repeat: no-repeat; }
+
+/*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=main.css.map */
