@@ -9,7 +9,7 @@ html {
   background-color: #fff;
   color: black;
   font-family: $base-font;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
   text-rendering: optimizeLegibility; }
 
@@ -28,6 +28,9 @@ nav {
           flex: 1 1 0px; }
 .blueText {
   color: $color-darkblue;
+}
+.herotext{
+  text-align: center;
 }          
 .anchor {
   padding-top: 60px;
@@ -328,6 +331,9 @@ button {
     height: 36px;
     width: 36px;
   }
+  .herohr{
+    display: none;
+ } 
   .mobile-centering {
     @include flex-prefix;
     @include flex-direction-column;

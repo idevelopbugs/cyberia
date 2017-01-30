@@ -7,7 +7,7 @@ html {
   background-color: #fff;
   color: black;
   font-family: "Lato", "Arial", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
   text-rendering: optimizeLegibility; }
 
@@ -30,6 +30,9 @@ nav {
 
 .blueText {
   color: #89bdd3; }
+
+.herotext {
+  text-align: center; }
 
 .anchor {
   padding-top: 60px;
@@ -451,6 +454,9 @@ button {
     margin-right: 4px;
     height: 36px;
     width: 36px; }
+
+  .herohr {
+    display: none; }
 
   .mobile-centering {
     display: -webkit-flex;
